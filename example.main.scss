@@ -1,0 +1,105 @@
+/* ==========================================================================
+   INUITCSS - HEX EXTENSION
+   ========================================================================== */
+
+/**
+ * This is an example inuitcss manifest file. DO NOT MODIFY THIS FILE DIRECTLY.
+ * It is designed to extend the existing example.main.scss file from inuitcss,
+ * so ensure you have copied that one into your own CSS directory first.
+ *
+ * Then, simply copy and paste the parts you need below into the manifest file
+ * to include the relevant pieces of the extension.
+ */
+
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Project-wide variables and settings.
+ * Colors...............Project-wide variables and settings.
+ * Layout...............Project-wide variables and settings.
+ * Responsive...............Project-wide variables and settings.
+ * Text...............Project-wide variables and settings.
+ * Transitions...............Project-wide variables and settings.
+ *
+ * TOOLS
+ * Aliases...............Project-wide variables and settings.
+ * Colors...............Project-wide variables and settings.
+ * Helpers...............Project-wide variables and settings.
+ * Layout...............Project-wide variables and settings.
+ * Mixins...............Project-wide variables and settings.
+ * Text...............Project-wide variables and settings.
+ * Transitions...............Project-wide variables and settings.
+ *
+ * GENERIC
+ *
+ * ELEMENTS
+ *
+ * OBJECTS
+ *
+ * COMPONENTS
+ *
+ * UTILITIES
+ * Colors...............Project-wide variables and settings.
+ * Object-Fit...............Project-wide variables and settings.
+ * Position...............Project-wide variables and settings.
+ * SVG-Icons...............Project-wide variables and settings.
+ * Text...............Project-wide variables and settings.
+ * Visibility...............Project-wide variables and settings.
+ */
+
+// SETTINGS
+@import 'settings/settings.global';
+@import 'settings/settings.colors';
+@import 'settings/settings.layout';
+@import 'settings/settings.responsive';
+@import 'settings/settings.text';
+@import 'settings/settings.transitions';
+
+
+
+
+
+// TOOLS
+@import 'tools/tools.aliases';
+@import 'tools/tools.colors';
+@import 'tools/tools.helpers';
+@import 'tools/tools.layout';
+@import 'tools/tools.pixins';
+@import 'tools/tools.text';
+@import 'tools/tools.transitions';
+
+
+
+
+// GENERIC
+
+
+
+
+
+// ELEMENTS
+
+
+
+
+
+// OBJECTS
+
+
+
+
+
+// COMPONENTS
+
+
+
+
+
+// UTILITIES
+@import 'utilities/utilities.colors';
+@import 'utilities/utilities.object-fit';
+@import 'utilities/utilities.position';
+@import 'utilities/utilities.sVG-icons';
+@import 'utilities/utilities.text';
+@import 'utilities/utilities.visibility';
