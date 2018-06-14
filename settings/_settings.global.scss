@@ -39,11 +39,9 @@ $inuit-spacing-directions: (
 ) !default;
 
 // UTILITIES.COLORS
-// Be aware that adding a helper here will generate a new class for every color
-// defined in the monochrome or theme colors in settings.colors.scss, which
-// may bloat your CSS if you have a lot of colors defined.
-$color-helpers: (
-    '-color': 'color',
-    // '-bg-color': 'background-color',
-    // '-fill': 'fill',
+$map-color-utility: (
+    'color': (
+        'primary': color('primary'),
+        'primary-alt': color('primary-alt'),
+    )
 ) !default;

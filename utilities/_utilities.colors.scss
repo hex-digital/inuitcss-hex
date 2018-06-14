@@ -10,7 +10,7 @@
  *
  * Example:
  * $map-color-utility: (
- *     '-color': (
+ *     'color': (
  *         'primary': color('primary'),
  *         'primary-alt': color('primary-alt'),
  *     );
@@ -26,16 +26,16 @@
  */
 
 $map-color-utility: (
-    '-color': (
+    'color': (
         'primary': color('primary'),
         'primary-alt': color('primary-alt'),
     )
 ) !default;
 
-@each $_property-namespace, $_color-map in $map-color-utility {
+@each $_property, $_color-map in $map-color-utility {
     @each $_color-name, $_color-var in $_color-map {
 
-        .u#{$_property-namespace} {
+        .u-#{$_property} {
 
             &-#{$_color-name} {
                 #{$_property}: $_color-var !important;
