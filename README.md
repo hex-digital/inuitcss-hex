@@ -1,7 +1,10 @@
 # ![inuitcss](http://inuitcss.com/img/logo-small.png)
+ 
+inuitcss-hex [![CircleCI](https://img.shields.io/circleci/project/hex-digital/inuitcss-hex/master.svg?maxAge=2592000?style=flat-square)](https://circleci.com/gh/hex-digital/inuitcss-hex)
 
-[![CircleCI](https://img.shields.io/circleci/project/inuitcss/inuitcss/master.svg?maxAge=2592000?style=flat-square)](https://circleci.com/gh/inuitcss/inuitcss)  
-[![CircleCI](https://img.shields.io/circleci/project/hex-digital/inuitcss-hex/master.svg?maxAge=2592000?style=flat-square)](https://circleci.com/gh/hex-digital/inuitcss-hex)
+Please note, this is an extension to the great framework 
+[inuitcss repo](https://github.com/inuitcss/inuitcss) by Harry Roberts et al.
+It is therefore a pre-requisite of this extension to add that first.
 
 **An extension to the extensible, scalable, Sass-based, OOCSS framework for 
 large and long-lasting UI projects.**
@@ -10,7 +13,7 @@ inuitcss is a framework in its truest sense: it does not provide you with UI and
 design out of the box, instead, it provides you with a solid architectural
 baseline upon which to complete your own work.
 
-This extension is a means of bringing commonly used areas from Hex sites into a
+This extension is a means of bringing partials that we commonly use into a
 package that can then be used ontop of inuit.
 
 The following README assumes you have already followed the inuitcss installation
