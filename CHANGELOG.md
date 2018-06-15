@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.0.5] - 2018-06-15
+## [1.0.6] - 2018-06-15
 ### Bug Fixes
 - Correct 'pixins' typo in example.main.scss
 - Correct comments in example.main.scss

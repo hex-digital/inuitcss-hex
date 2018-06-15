@@ -7,6 +7,7 @@ dependencies:
   pre:
     - gem install sass true
     - npm install
+    - npm install inuitcss --save-dev
 test:
   override:
     - sass test/main.scss test/main.css --sourcemap=none
