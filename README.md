@@ -1,6 +1,6 @@
 # ![inuitcss](http://inuitcss.com/img/logo-small.png)
  
-inuitcss-hex [![CircleCI](https://img.shields.io/circleci/project/hex-digital/inuitcss-hex/master.svg?maxAge=2592000?style=flat-square)](https://circleci.com/gh/hex-digital/inuitcss-hex)
+[![CircleCI](https://img.shields.io/circleci/project/hex-digital/inuitcss-hex/master.svg?maxAge=2592000?style=flat-square)](https://circleci.com/gh/hex-digital/inuitcss-hex)
 
 Please note, this is an extension to the great framework 
 [inuitcss repo](https://github.com/inuitcss/inuitcss) by Harry Roberts et al.
