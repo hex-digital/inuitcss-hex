@@ -7,13 +7,13 @@
  * and function names to make them easier to use throughout the project.
  */
 
-// @mixin font-size($inuit-font-size, $inuit-line-height: auto) {
-//     @include inuit-font-size($inuit-font-size, $inuit-line-height);
-// }
+@mixin font-size($inuit-font-size, $inuit-line-height: auto) {
+    @include inuit-font-size($inuit-font-size, $inuit-line-height);
+}
 
-// @mixin hidden-visually() {
-//     @include inuit-hidden-visually();
-// }
+@mixin hidden-visually() {
+    @include inuit-hidden-visually();
+}
 
 @function z($_key) {
     @return z-index($_key);

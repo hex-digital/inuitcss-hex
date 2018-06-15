@@ -39,6 +39,6 @@
     "stylelint-scss": "^2.1.0"
   },
   "peerDependencies": {
-    "inuitcss": "6.x"
+    "inuitcss": "^6.0.0"
   }
 }
