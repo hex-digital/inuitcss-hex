@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.1] - 2018-06-15
+### Bug Fixes
+- Correct 'pixins' typo in example.main.scss
+- Correct comments in example.main.scss
+- Fix circleci build failing on tests
 
 ## [1.0.0] - 2018-06-13
 ### New Features

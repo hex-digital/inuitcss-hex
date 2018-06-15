@@ -16,20 +16,20 @@
  *
  * SETTINGS
  * Global...............Project-wide variables and settings.
- * Colors...............Project-wide variables and settings.
- * Layout...............Project-wide variables and settings.
- * Responsive...............Project-wide variables and settings.
- * Text...............Project-wide variables and settings.
- * Transitions...............Project-wide variables and settings.
+ * Colors...............Project-wide colour and palette settings.
+ * Layout...............Project-wide generic layout settings.
+ * Responsive...........Project-wide responsivity settings.
+ * Text.................Project-wide typography settings..
+ * Transitions..........Project-wide transition and easing settings.
  *
  * TOOLS
- * Aliases...............Project-wide variables and settings.
- * Colors...............Project-wide variables and settings.
- * Helpers...............Project-wide variables and settings.
- * Layout...............Project-wide variables and settings.
- * Mixins...............Project-wide variables and settings.
- * Text...............Project-wide variables and settings.
- * Transitions...............Project-wide variables and settings.
+ * Aliases..............Aliases inuit and other functions and mixin names.
+ * Colors...............Tools to interact with the project's colors.
+ * Helpers..............Generic helper functions.
+ * Layout...............Tools to interact with the generic layout.
+ * Mixins...............Generic mixins.
+ * Text.................Tools to interact with the typography.
+ * Transitions..........Tools to interact with the transitions and easing.
  *
  * GENERIC
  *
@@ -40,12 +40,12 @@
  * COMPONENTS
  *
  * UTILITIES
- * Colors...............Project-wide variables and settings.
- * Object-Fit...............Project-wide variables and settings.
- * Position...............Project-wide variables and settings.
- * SVG-Icons...............Project-wide variables and settings.
- * Text...............Project-wide variables and settings.
- * Visibility...............Project-wide variables and settings.
+ * Colors...............Utilities to generate classes for colors.
+ * Object-Fit...........Utilities to generate object-fit classes.
+ * Position.............Utilities to generate positioning classes.
+ * SVG-Icons............Utilities to handle SVG Icons.
+ * Text.................Utilities to handle typography classes..
+ * Visibility...........Utilities to hnalde visibility.
  */
 
 // SETTINGS
@@ -65,7 +65,7 @@
 @import 'tools/tools.colors';
 @import 'tools/tools.helpers';
 @import 'tools/tools.layout';
-@import 'tools/tools.pixins';
+@import 'tools/tools.mixins';
 @import 'tools/tools.text';
 @import 'tools/tools.transitions';
 
@@ -100,6 +100,6 @@
 @import 'utilities/utilities.colors';
 @import 'utilities/utilities.object-fit';
 @import 'utilities/utilities.position';
-@import 'utilities/utilities.sVG-icons';
+@import 'utilities/utilities.svg-icons';
 @import 'utilities/utilities.text';
 @import 'utilities/utilities.visibility';
