@@ -1,0 +1,47 @@
+/* ==========================================================================
+   #COLORS
+   ========================================================================== */
+
+/**
+ * The colors utilities file takes the color map and creates utility classes
+ * for each property and color defined in the map.
+ *
+ * This can be used for color, fill, stroke, etc.
+ *
+ * Example:
+ * $map-color-utility: (
+ *     'color': (
+ *         'primary': color('primary'),
+ *         'primary-alt': color('primary-alt'),
+ *     );
+ * )
+ *
+ * Will produce:
+ * .u-color-primary {
+ *     color: $color-primary;
+ * }
+ * .u-color-primary-alt {
+ *     color: $color-primary-alt;
+ * }
+ */
+
+$map-color-utility: (
+    'color': (
+        'primary': color('primary'),
+        'primary-alt': color('primary-alt'),
+    )
+) !default;
+
+@each $_property, $_color-map in $map-color-utility {
+    @each $_color-name, $_color-var in $_color-map {
+
+        .u-#{$_property} {
+
+            &-#{$_color-name} {
+                #{$_property}: $_color-var !important;
+            }
+
+        }
+
+    }
+}
