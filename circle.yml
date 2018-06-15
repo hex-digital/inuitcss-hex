@@ -13,5 +13,5 @@ test:
     - sass test/main.scss test/main.css --sourcemap=none
     - true-cli test/tests.scss
     - npm rebuild node-sass
-    - node-sass example.main.scss -o test/
+    - node-sass test/main.scss -o test/
     - npm test
