@@ -37,5 +37,8 @@
     "sass-true": "^3.0.0",
     "stylelint": "^8.1.1",
     "stylelint-scss": "^2.1.0"
+  },
+  "peerDependencies": {
+    "inuitcss": "6.x"
   }
 }
