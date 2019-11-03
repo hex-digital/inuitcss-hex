@@ -68,3 +68,27 @@
     }
 
 }
+
+/** You will usually want to use styles-from-map, unless you're trying to support a map that may not have the keys requested. */
+@mixin styles-from-map-quietly($map) {
+    @each $style, $value in $map {
+        @if (type-of($value) == 'map') {
+            #{$style} {
+                @include styles-from-map($value);
+            }
+        } @else {
+            #{$style}: #{$value};
+        }
+    }
+}
+
+@mixin styles-from-map($map) {
+    @if type-of($map) == 'null' {
+        @warn 'Value passed to mixin styles-from-map is null. No styles will be outputted';
+    }
+    @if type-of($map) != 'map' and type-of($map) != 'null' {
+        @error 'Value passed to mixin styles-from-map must be a map - #{$map}';
+    }
+
+    @include styles-from-map-quietly($map);
+}

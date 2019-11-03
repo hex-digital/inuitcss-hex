@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.8] - 2019-11-03
+
+### New Features
+- Added recursive map merge function
+- Added styles-from-map mixin (and it's error suppressing companion, styles-from-map-quietly)
+
 ## [1.0.7] - 2018-06-15
 ### Bug Fixes
 - Correct 'pixins' typo in example.main.scss

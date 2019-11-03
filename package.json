@@ -1,6 +1,6 @@
 {
   "name": "inuitcss-hex",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Extension to the extensible, scalable, Sass-based, OOCSS framework for large and long-lasting UI projects.",
   "main": "example.main.scss",
   "scripts": {
